@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredTest.Demo1_GET_Request">
+      <class name="RestAssuredTest.Demo5_BasicValidations_JSONResponse">
         <methods>
-          <include name="page2Details"/>
+          <include name="testParamHeader"/>
+          <include name="testSingleContent"/>
         </methods>
-      </class> <!-- RestAssuredTest.Demo1_GET_Request -->
+      </class> <!-- RestAssuredTest.Demo5_BasicValidations_JSONResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
